@@ -1,0 +1,57 @@
+name: gym_management_system
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  animated_text_kit: ^4.2.2
+  dropdown_button2: ^2.3.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/.
+  fonts:
+    - family: Spartan MB
+      fonts:
+        - asset: fonts/SpartanMB-Black.otf
+          weight: 900
+    - family: Lemon
+      fonts:
+        - asset: fonts/Lemon-Regular.ttf
+          weight: 900
+    - family: Nosifer
+      fonts:
+        - asset: fonts/Nosifer-Regular.ttf
+          weight: 900
+    - family: Kalam
+      fonts:
+        - asset: fonts/Kalam-Regular.ttf
+          weight: 900
+    - family: PlaypenSans
+      fonts:
+        - asset: fonts/PlaypenSans-ExtraBold.ttf
+          weight: 900
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+          weight: 900
